@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.3)
-project(lua_5_2_2)
+project(lua)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
@@ -15,4 +15,4 @@ set(SOURCE_FILES src/lapi.h src/lapi.c src/lauxlib.c src/lauxlib.h
         src/ltm.c src/ltm.h src/lua.c src/lua.h src/lua.hpp src/luac.c
         src/luaconf.h src/lualib.h src/lundump.c src/lundump.h src/lvm.c
         src/lvm.h src/lzio.c src/lzio.h)
-add_executable(lua_5_2_2 ${SOURCE_FILES})
+add_executable(lua ${SOURCE_FILES})
