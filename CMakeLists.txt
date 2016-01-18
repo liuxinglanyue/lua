@@ -14,5 +14,5 @@ set(SOURCE_FILES src/lapi.h src/lapi.c src/lauxlib.c src/lauxlib.h
         src/lstring.h src/lstrlib.c src/ltable.c src/ltable.h src/ltablib.c
         src/ltm.c src/ltm.h src/lua.c src/lua.h src/lua.hpp src/luac.c
         src/luaconf.h src/lualib.h src/lundump.c src/lundump.h src/lvm.c
-        src/lvm.h src/lzio.c src/lzio.h)
+        src/lvm.h src/lzio.c src/lzio.h src/lprefix.h src/lutf8lib.c)
 add_executable(lua ${SOURCE_FILES})
